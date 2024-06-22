@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GithubUser" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">#0C0C0C</item>-->
+        <item name="cardViewStyle">@style/Nightcard</item>
+    </style>
+
+    <style name="Nightcard" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="cardBackgroundColor">#0C0C0C</item>
+    </style>
+
+    <style name="fontcard" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="cardBackgroundColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="fontslider" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="cardBackgroundColor">#FFFFFFFF</item>
+    </style>
+</resources>
